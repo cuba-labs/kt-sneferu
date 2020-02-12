@@ -1,4 +1,4 @@
-package groovy.sneferu.sample.testsupport
+package kt.sneferu.sample.testsupport
 
 import com.haulmont.cuba.web.testsupport.TestContainer
 
@@ -30,7 +30,7 @@ open class DemoTestContainer() : TestContainer() {
         setAppComponents(listOf("com.haulmont.cuba"))
         setAppPropertiesFiles(listOf(
                 "com/company/sample/web-app.properties",
-                "groovy/sneferu/sample/testsupport/test-app.properties"
+                "kt/sneferu/sample/testsupport/test-app.properties"
         ))
     }
 }

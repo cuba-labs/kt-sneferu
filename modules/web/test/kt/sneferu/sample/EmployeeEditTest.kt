@@ -1,4 +1,4 @@
-package groovy.sneferu.sample
+package kt.sneferu.sample
 
 import com.company.sample.entity.Employee
 import com.company.sample.web.screens.employee.EmployeeBrowse
@@ -14,7 +14,7 @@ import com.haulmont.sneferu.ComponentDescriptors.textField
 import com.haulmont.sneferu.CubaWebUiTestAPI
 import com.haulmont.sneferu.Interactions.*
 import com.haulmont.sneferu.UiTestAPI
-import groovy.sneferu.sample.testsupport.DemoTestContainer
+import kt.sneferu.sample.testsupport.DemoTestContainer
 import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.ClassRule
